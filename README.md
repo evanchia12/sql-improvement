@@ -200,7 +200,7 @@ WHERE ((JobCategories.name LIKE '%キャビンアテンダント%'
     OR JobTypes.name LIKE '%キャビンアテンダント%'
     OR Jobs.name LIKE '%キャビンアテンダント%'
     OR Jobs.description LIKE '%キャビンアテンダント%'
-    OR Jobs.detail LIKE '%キャビンアテンダント%'キャビン
+    OR Jobs.detail LIKE '%キャビンアテンダント%'
     OR Jobs.business_skill LIKE '%キャビンアテンダント%'
     OR Jobs.knowledge LIKE '%キャビンアテンダント%'
     OR Jobs.location LIKE '%キャビンアテンダント%'
