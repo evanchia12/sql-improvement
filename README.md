@@ -136,7 +136,6 @@ Solutions are as below.
 4. Result as below:
 
 ```
-
 SET @jobs_personalities_ids = (SELECT GROUP_CONCAT(id) FROM jobs_personalities WHERE deleted IS NULL);
 SET @personalities_ids = (SELECT GROUP_CONCAT(id) FROM personalities WHERE name LIKE '%キャビンアテンダント%' AND deleted IS NULL AND personality_id IN (@jobs_personalities_ids));
 SET @practical_skills_ids = (SELECT GROUP_CONCAT(id) FROM practical_skills WHERE name LIKE '%キャビンアテンダント%' AND deleted IS NULL);
