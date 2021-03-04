@@ -218,3 +218,6 @@ WHERE ((JobCategories.name LIKE '%キャビンアテンダント%'
 ORDER BY Jobs.sort_order desc,
     Jobs.id DESC LIMIT 50 OFFSET 0
 ```
+
+# Total Time Spent
+Estimate 2-3 hours
